@@ -19,7 +19,7 @@ const agregarPersonas = ()=>{
 }
 
 const cantidadPersonas = ()=>{
-    let cantidadDatos = parseInt(prompt("Ingrese el numero de cosas que metera en la caja"));
+    let cantidadDatos = parseInt(prompt("Ingrese el numero de personas que metera en el array"));
     if(isNaN(cantidadDatos)){
         alert("Por favor ingrese un valor numerico");
     }
